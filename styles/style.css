@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.btn-container{
+  text-align: center;
+
+}
+.btn{
+padding: 15px 25px 15px 25px;
+background: rgb(82, 195, 3);
+color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+text-align: center;
+letter-spacing: 0%;
+border-radius: 8px;
+
+border: none;
+
+}
+#hero {
+
+  background: linear-gradient(0.00deg, rgb(9, 9, 9) 2.884%,rgba(16, 16, 16, 0) 101.034%) ,url(../image/hero-bg.png);;
+  height: 630px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+#hero .hero-content {
+  width: 818px;
+  margin: 0 auto;
+}
+
+#hero .hero-content .subtitle {
+  opacity: 0.8;
+  color: rgb(255, 255, 255);
+  font-family: Work Sans;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 12px;
+}
+#hero .hero-content .title {
+  color: rgb(255, 255, 255);
+  font-family: Work Sans;
+  font-size: 51px;
+  font-weight: 700;
+  line-height: 64px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+#hero .hero-content .sub-content {
+  color: rgb(255, 255, 255);
+  font-family: Work Sans;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+  margin-bottom: 26px;
+}
+
+#card-box{
+  width: 1056px;
+  margin: 0 auto;
+  background-color: azure;
+}
+#card-box .subtitle{
+  opacity: 0.6;
+  color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 20px;
+font-weight: 500;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.6;
+
+
+
+}
+#card-box .title{
+  color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 38px;
+font-weight: 700;
+line-height: 51px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 30px;
+margin-top: 50px;
+
+
+}
+.card-container{
+  margin-top: 30px;
+
+}
+.card{
+  max-width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+  align-items: center;
+
+
+
+ 
+
+ 
+
+
+}
+.card .image-box{
+  width: 250px;
+
+}
+.card .image-box img{
+  width: 100%;
+}
+
+
+
